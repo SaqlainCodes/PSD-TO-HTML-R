@@ -1,0 +1,104 @@
+
+#header-container{
+    width: 960px;
+    height: 140px;
+    background-color: green;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.logo-area{
+    width: 480px;
+
+}
+.logo-area img{
+    padding-top: 46px;
+    padding-left: 30px;
+}
+
+.Social-area{
+    float: right;
+    padding-top: 0px;
+}
+.social-icon{
+    display: block;
+    margin-top: -87px;
+    
+}
+.social-icon ul li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+}
+
+.link-area ul{
+    margin-top: 39px;
+    padding-left: 15px;
+    display: block;
+}
+.link-area ul li{
+ display: inline-block;
+ padding-top: 10px;
+ padding-right: 5px;
+}
+
+/*------------------------NAV_BAR----------------------------*/
+#nav-container{
+    width: 960px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: orangered;
+}
+.nav-links{
+    width: 70%;
+    background-color: blue;
+}
+.nav-links ul{
+    display: block;
+    list-style: none;
+}
+
+.nav-links ul li{
+    display: inline-block;
+}
+
+.nav-links ul li a{
+    padding-right: 8px;
+    line-height: 70px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.nav-links ul li a:hover{
+    background-color: brown;
+}
+
+.nav-search{
+    width: 30%;
+    float: right;
+    box-sizing: border-box;
+    margin-top: -66px;
+    margin-right: -45px;   
+  
+}
+
+.form{
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/*--------------------------------IMAGE--------------------------*/
+#image-container{
+    width: 960px;
+    height: auto;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+.image-sec img{
+  width: 860px;
+  height: 360px;
+  margin-left: 50px;
+  
+}
